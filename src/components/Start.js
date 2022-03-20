@@ -20,11 +20,12 @@ return (
         borderRadius: "5px"
         },
     }} open={open}>
-        <DialogTitle>Welcome <IconButton onClick={onClose}  sx={{position: "absolute", right:"16px" }}><Icon>close</Icon></IconButton> </DialogTitle>
+        <DialogTitle sx={{color: "black", fontWeight: "bold"}} >Welcome <IconButton onClick={onClose}  sx={{position: "absolute", right:"16px" }}><Icon>close</Icon></IconButton> </DialogTitle>
         <DialogContent> 
         <div>
             <p> Welcome to Johnny's portfolio.</p>
             <p> Here you will find projects and sites made by Johnny.</p>
+            <p> You can also contact him if you are interested in his services.</p>
         </div>
         </DialogContent>
     </Dialog>

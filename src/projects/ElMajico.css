@@ -1,0 +1,32 @@
+.image-majico{
+    background-image: url("./screenshot2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;    
+    height: 400px;
+    width: 600px;
+}
+
+.el-majico{
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.356);
+    width: 600px;
+    height: 423px;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.el-majico:hover{
+    background-color: rgba(194, 194, 194, 0.774);
+}
+
+.title-majico{
+    text-decoration: none;
+    position: absolute;
+    color: #fff;
+    margin-top: 6px;
+    margin-left: 220px;
+}
