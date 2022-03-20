@@ -7,6 +7,35 @@
   pointer-events: none;
 }
 
+.link-element{
+  font-size: 26px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.logo{
+  background-image: url("./container/mylogo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;  
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+}
+
+.bar{
+  height: 50px;
+  width: 100;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+}
+
+.link-element:hover{
+  color: rgba(219, 219, 219, 0.89);
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
