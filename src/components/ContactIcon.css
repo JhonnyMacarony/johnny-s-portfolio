@@ -1,0 +1,79 @@
+.logo-icon{
+    background-image: url("./phone-call.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;  
+    border-radius: 50%;  
+    height: 80px;
+    border: none;
+    width: 80px;
+    animation: rotate 2000ms ease-in-out infinite;
+    margin: 10px;
+}
+
+.animated{
+    height: 100px;
+    width: 450px;
+    margin-left: 300px;
+    margin-top: 30px;
+    transition: 1000ms;
+    border-radius: 100px;
+    padding-top: 10px;
+}
+
+.p0{
+    position: relative;
+    margin-left: 150px;
+    margin-top: -75px;
+    font-size: 28px;
+    display: none;
+    color: transparent;
+}
+
+.animated:hover>.p0{
+    color: white;
+    display: grid;
+}
+
+.animated:hover{
+    background-color: rgba(0, 0, 0, 0.425);
+    color: black;
+}
+
+@keyframes rotate{
+    20%{
+        transform: rotate(50deg);
+    }
+    30%{
+        transform: rotate(-50deg);
+    }
+    40%, 100%{
+        transform: rotate(0deg);
+    }
+}
+
+.animation-0{
+    animation: color ease-in-out forwards 3500ms;
+    width: 300px;
+    overflow: hidden;
+    height: 30px;
+}
+
+.animation-1{
+    animation: color ease-in-out forwards 4000ms;
+    width: 500px;
+    overflow: hidden;
+    height: 30px;
+}
+
+@keyframes color{
+    0%{
+        color: white;
+        transform: translateY(-80px);
+        opacity: 0;
+    }
+    30%, 100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

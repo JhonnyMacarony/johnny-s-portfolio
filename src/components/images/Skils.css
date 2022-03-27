@@ -1,0 +1,47 @@
+tr, th, td{
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    font-size: 27px;
+}
+
+.x-mark{
+    padding-left: 200px;
+}
+
+td{
+    padding-left: 40px;
+}
+
+.h40{
+    margin-top: 70px;
+}
+
+.icon-skill{
+    background-size: 110px;
+    font-size: 0.1px;
+}
+
+.td-img-react{
+    background-image: url("./react.png");
+    background-repeat: no-repeat;
+    background-position: top;  
+}
+
+.td-img-html{
+    background-image: url("./html.png");
+    background-repeat: no-repeat;
+    background-position: top;  
+}
+
+.td-img-css{
+    background-image: url("./css-3.png");
+    background-repeat: no-repeat;
+    background-position: top;  
+}
+
+.td-img-js{
+    background-image: url("./js.png");
+    background-repeat: no-repeat;
+    background-position: top;  
+}

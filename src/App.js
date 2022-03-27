@@ -1,11 +1,11 @@
 import './App.css';
-import Start from './components/Start';
 import { Routes, Link, Route } from "react-router-dom"
 import Profile from "./pages/Profile";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import Info from './pages/Info';
+import End from './components/End';
 
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
   return (
 
     <div>
-    <Start />
+    
     <div className='bar'>
         <Link to='/profile' className='link-element logo' ></Link>
         <Link to='/' className='link-element'  > Home </Link>
@@ -28,7 +28,7 @@ function App() {
         <Route path='/contact-me' element={ <Contact /> } />
         <Route path='/profile' element={ <Profile /> } />
     </Routes>
-
+    <End />
     </div>
 
   );

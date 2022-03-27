@@ -7,8 +7,10 @@ const Projects = () => {
   return (
     <div>
       <h2> My Projects </h2>
-      <CommunityPage />
-      <ElMajico />
+      <div className='projects'>
+        <CommunityPage />
+        <ElMajico />
+      </div>
     </div>
   )
 }

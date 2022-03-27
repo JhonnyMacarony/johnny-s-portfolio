@@ -1,0 +1,55 @@
+.end-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(18, 199, 199, 0.5);
+    height: 150px;
+    width: 100%;
+    margin-top: 200px;
+}
+
+.instagram{
+    background-image: url("./instagram.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;  
+}
+
+.facebook{
+    background-image: url("./facebook.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;  
+}
+.discord{
+    background-image: url("./discord.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;  
+}
+.tiktok{
+    background-image: url("./tik-tok.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;  
+}
+
+.fiverr{
+    background-image: url("./fiverr.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;  
+}
+
+.icon{
+    border-radius: 25px;  
+    height: 80px;
+    width: 80px;
+    margin: 35px 90px;
+    z-index: 1;
+}
+
+.icon:hover{
+    height: 85px;
+    width: 85px;
+}

@@ -12,9 +12,20 @@
     display: flex;
     margin-top: 90px;
     justify-content: space-between;
+    animation: slide 10000ms ease-in-out forwards;
 }
 
 .title0{
     margin-left: 20px;
     font-size: 27px;
+    animation: slide 10000ms ease-in-out forwards;
+}
+
+@keyframes slide{
+    0%{
+        transform: translateX(-1450px);
+    }
+    30%, 100%{
+        transform: translateX(0);
+    }
 }
